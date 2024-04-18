@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RQDo1LQDW8wG8fYXEats32aa17oRwo7Xx5n97IH17KriKvkExzJuHSh0zNXQp7CEoivJxjJSNUxKa/EDA8I8DQ==",
+  "dgSpecHash": "mKh8X0es2AQ1rPOhwdTauh+8dxXyGehNDTqKaHjMXnQDN896R1sRNQ7Av04/shBUauAFHr48mzvSIPj6dauaOg==",
   "success": true,
-  "projectFilePath": "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\customer portal.csproj",
+  "projectFilePath": "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\customer portal.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shilka.kp\\.nuget\\packages\\awssdk.core\\3.7.303.14\\awssdk.core.3.7.303.14.nupkg.sha512",
     "C:\\Users\\shilka.kp\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\shilka.kp\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\shilka.kp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

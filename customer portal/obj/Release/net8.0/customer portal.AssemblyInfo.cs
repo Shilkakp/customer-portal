@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("customer portal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+102c624faa28adf2298318b74e802704e3028a16")]
 [assembly: System.Reflection.AssemblyProductAttribute("customer portal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("customer portal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "customer_portal.Controllers.AppuserController",
+    "Method": "AddPolicy",
+    "RelativePath": "api/Appuser/AddPolicy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "customer_portal.Models.UserPolicyList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "customer_portal.Controllers.AppuserController",
     "Method": "Addappuser",
     "RelativePath": "api/Appuser/Adduser",
     "HttpMethod": "POST",
@@ -33,12 +49,82 @@
   },
   {
     "ContainingType": "customer_portal.Controllers.AppuserController",
-    "Method": "logout",
-    "RelativePath": "api/Appuser/logout",
-    "HttpMethod": "POST",
+    "Method": "GetCoverages",
+    "RelativePath": "api/Appuser/GetCoverages/{PolicyNumber}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "PolicyNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "customer_portal.Controllers.AppuserController",
+    "Method": "getPolicies",
+    "RelativePath": "api/Appuser/getPolicies/{userid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "customer_portal.Controllers.AppuserController",
+    "Method": "PolicyDetails",
+    "RelativePath": "api/Appuser/PolicyDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "customer_portal.Controllers.AppuserController",
+    "Method": "PolicyHolderDetails",
+    "RelativePath": "api/Appuser/PolicyHolderDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PolicyNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "customer_portal.Controllers.AppuserController",
+    "Method": "GetVehicleDetails",
+    "RelativePath": "api/Appuser/VehicleDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

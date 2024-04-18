@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\customer portal.csproj": {}
+    "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\customer portal.csproj": {}
   },
   "projects": {
-    "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\customer portal.csproj": {
+    "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\customer portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\customer portal.csproj",
+        "projectUniqueName": "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\customer portal.csproj",
         "projectName": "customer portal",
-        "projectPath": "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\customer portal.csproj",
+        "projectPath": "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\customer portal.csproj",
         "packagesPath": "C:\\Users\\shilka.kp\\.nuget\\packages\\",
-        "outputPath": "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\obj\\",
+        "outputPath": "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.303.14, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AWSSDK.Core/3.7.303.14": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -1668,6 +1681,35 @@
     }
   },
   "libraries": {
+    "AWSSDK.Core/3.7.303.14": {
+      "sha512": "CB0eSYIH1TjP2z16l8cKkG3UkuYj9KZdmGFuzx+JML7DhdsIz+dnuwI4fPf1mH8GlfjhS17xgHp1apDty/pS0A==",
+      "type": "package",
+      "path": "awssdk.core/3.7.303.14",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.303.14.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.pdb",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
     "Azure.Core/1.35.0": {
       "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
       "type": "package",
@@ -4673,6 +4715,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AWSSDK.Core >= 3.7.303.14",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.2",
@@ -4688,11 +4731,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\customer portal.csproj",
+      "projectUniqueName": "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\customer portal.csproj",
       "projectName": "customer portal",
-      "projectPath": "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\customer portal.csproj",
+      "projectPath": "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\customer portal.csproj",
       "packagesPath": "C:\\Users\\shilka.kp\\.nuget\\packages\\",
-      "outputPath": "E:\\PROJECT\\PROJECT\\Api\\customer portal\\customer portal\\obj\\",
+      "outputPath": "E:\\PROJECT\\PROJECT\\Api\\cp\\customer-portal\\customer portal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4731,6 +4774,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.7.303.14, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.2, )"
